@@ -25,15 +25,15 @@ export default function Counter() {
                     <div>
                         <button
                             style={{ fontSize: '1.2rem' }}
-                            onClick={() => dispatch({ type: 'INCREMENTBY2' })}
+                            onClick={() => dispatch({ type: 'INCREMENTBY5' })}
                         >
-                            IncrementBy2
+                            IncrementBy5
                         </button>
                         <button
                             style={{ fontSize: '1.2rem' }}
-                            onClick={() => dispatch({ type: 'DECREMENTBY2' })}
+                            onClick={() => dispatch({ type: 'DECREMENTBY5' })}
                         >
-                            DecrementBy2
+                            DecrementBy5
                         </button>
                     </div>
                 </>
